@@ -6,43 +6,43 @@ import { ReactComponent as GitHub } from '../assets/icons/github.svg';
 import { ReactComponent as LinkedIn } from '../assets/icons/linkedin.svg';
 import './Footer.css';
 
-function Footer() {
-    return(
-        <footer className="pt-3 mt-3 bg-light">
+const Footer = () => {
+    return (
+        <footer className="footer pt-3 mt-3">
             <div className="container-fluid container-min-max-width d-flex justify-content-between">
                 <div className="footer-group d-flex flex-column">
                     <h3 className="h5">Link-uri rapide:</h3>
-                    <Link to='/about'>Despre</Link>
-                    <Link to='/terms-and-conditions'>Termeni și condiții</Link>
+                    <Link to='/about' className="text-dark">Despre</Link>
+                    <Link to='/terms-and-conditions' className="text-dark">Termeni și condiții</Link>
                 </div>
                 <div className="footer-group">
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="m-0">
-                        <a href="mailto:razvan.cirlugea@gmail.com">
-                            <Mail className="mr-1 mb-1 footer-icon"/>
-                            razvan.cirlugea@gmail.com
+                        <a href="mailto:rm.scutaru@gmail.com" className="text-dark">
+                            <Mail className="mr-1 mb-1 footer-icon" />
+                            rm.scutaru@gmail.com
                         </a>
                     </p>
-                    <p className="m-0"><Phone className="mr-1 footer-icon"/>+40728998166</p>
+                    <p className="m-0"><Phone className="mr-1 footer-icon" />+40722609678</p>
                 </div>
                 <div className="footer-group">
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="m-0">
-                        <a href="https://github.com/razvancir96">
-                            <GitHub className="mr-1 mb-1 footer-icon"/>
-                            razvancir96
+                        <a href="https://github.com/rscutaru" className="text-dark">
+                            <GitHub className="mr-1 mb-1 footer-icon" />
+                            rscutaru
                         </a>
                     </p>
                     <p className="m-0">
-                        <a href="https://www.linkedin.com/in/razvancirlugea/">
-                            <LinkedIn className="mr-1 footer-icon"/>
-                            razvancirlugea
+                        <a href="https://www.linkedin.com/in/roxana-scutaru/" className="text-dark">
+                            <LinkedIn className="mr-1 footer-icon" />
+                            roxanascutaru
                         </a>
                     </p>
                 </div>
             </div>
-            <div className="text-center py-3">
-                &copy; Răzvan Cîrlugea, 2019
+            <div className="text-center py-1 mr-4">
+            &copy; Roxana Scutaru, 2020
             </div>
         </footer>
     );
