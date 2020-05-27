@@ -10,6 +10,7 @@ import Page404 from './pages/Page404';
 import Product from './pages/Product';
 import TermsAndConditions from './pages/TermsAndConditions';
 import './utils/utility-classes.css';
+import FavoriteList from './pages/FavoriteList';
 
 function App() {
   return(
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/cart" component={Cart}/>
         <Route path="/about" component={About}/>
+        <Route path="/favorites" component={FavoriteList}/>
         <Route path ="/terms-and-conditions" component={TermsAndConditions}/>
         <Route path="/category/:categoryName" component={Category}/>
         <Route path="/product/:productId" component={Product}/>

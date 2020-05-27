@@ -5,7 +5,7 @@ export function addToFavorite(payload) {
     }
 }
 
-export function removeFromCart(payload) {
+export function removeFromFavorite(payload) {
     return {
         type: 'REMOVE_FROM_FAVORITE',
         payload

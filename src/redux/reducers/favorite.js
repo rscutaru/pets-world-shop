@@ -1,45 +1,34 @@
 const initialState = {
-    products: []
+    favorites: []
 }
 
 export function favoriteReducer(state = initialState, action) {
     switch (action.type) {
         case 'ADD_TO_FAVORITE':
-            let productInCart = false;
-            const updatedProducts = state.products.map(product => {
+            let productInFavorite = false;
+            const updatedFavorites = state.favorites.map(product => {
                 if (product.id === action.payload.product.id) {
-                    productInCart = true;
-                    return {
-                        ...product,
-                        quantity: product.quantity + 1
-                    }
-                } else {
-                    return product;
-                }
+                    productInFavorite = true;
+                } 
             })
 
-            if (!productInCart) {
+            if (!productInFavorite) {
                 return Object.assign({}, state, {
-                    products: [
-                        ...state.products,
+                    favorites: [
+                        ...state.favorites,
                         {
                             ...action.payload.product,
-                            quantity: 1
                         }
                     ]
                 })
-            } else {
-                return Object.assign({}, state, {
-                    products: updatedProducts
-                });
-            }
+            } 
         case 'REMOVE_FROM_FAVORITE':
-            const filteredProducts = state.products.filter(product => {
-                return product.id !== action.payload.id
+            const filteredProducts = state.favorites.filter(product => {
+                return product.id !== action.payload.product.id
             });
 
             return Object.assign({}, state, {
-                products: filteredProducts
+                favorites: filteredProducts
             });
         default:
             return state;
