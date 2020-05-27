@@ -14,7 +14,7 @@ Pentru continuarea proiectului, am respectat cerintele date:
 
 3. Am adaugat functionalitatea de logare cu Facebook(similar cu logare cu Google).
 
-4. Am adaugat functionalitatea de adaugare la favorite. Am folosit redux, iar adaugarea se face atat din pagina de categorie, cat si din pagina de produs. **In header adaugati o iconita noua, care va va redirecta catre pagina de favorite, unde vor fi listate produsele corespunzatoare.**
+4. Am adaugat functionalitatea de adaugare la favorite. Am folosit redux, iar adaugarea se face atat din pagina de categorie, cat si din pagina de produs. **In header am adaugat o iconita noua, care va redirecteaza catre pagina de favorite, unde sunt listate produsele corespunzatoare.**
 
 6. Modificati structura folderul "redux" astfel: in loc de folderele "actions" si "reducers", creati foldere per functionalitate, fiecare cu actiunile si reducerii speficifici. De exemplu: veti crea folderul cart, care va contine fisierele "CartActions.js" si "CartReducer.js".
 De asemenea, pentru tipul actiunii, creati in fiecare folder un fisier de constante(ex: CartConstants.js), in care veti defini valorile corespunzatoare. In cadrul actiunilor si al reducerilor, in loc sa scrieti manual tipul actiunii(ex: 'REMOVE_FROM_CART'), il veti importa din fisierul de constante.
