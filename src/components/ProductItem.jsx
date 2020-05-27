@@ -1,8 +1,8 @@
 import React from 'react';
 import './ProductItem.css';
 import { connect } from 'react-redux';
-import { addToCart } from '../redux/actions/cart';
-import {addToFavorite} from '../redux/actions/favorite';
+import { addToCart } from '../redux/cart/cartActions';
+import {addToFavorite} from '../redux/favorite/favoriteActions';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Favorite} from '../assets/icons/favorite-.svg';
 

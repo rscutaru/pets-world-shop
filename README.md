@@ -16,7 +16,7 @@ Pentru continuarea proiectului, am respectat cerintele date:
 
 4. Am adaugat functionalitatea de adaugare la favorite. Am folosit redux, iar adaugarea se face atat din pagina de categorie, cat si din pagina de produs. **In header am adaugat o iconita noua, care va redirecteaza catre pagina de favorite, unde sunt listate produsele corespunzatoare.**
 
-6. Modificati structura folderul "redux" astfel: in loc de folderele "actions" si "reducers", creati foldere per functionalitate, fiecare cu actiunile si reducerii speficifici. De exemplu: veti crea folderul cart, care va contine fisierele "CartActions.js" si "CartReducer.js".
+6. Am modificat structura folderului "redux" astfel: in loc de folderele "actions" si "reducers", am creat foldere per functionalitate, fiecare cu actiunile si reducerii speficifici. De exemplu: am creat folderele cart/user/favorite, care contin fisierele aferente (de ex. "CartActions.js" si "CartReducer.js").
 De asemenea, pentru tipul actiunii, creati in fiecare folder un fisier de constante(ex: CartConstants.js), in care veti defini valorile corespunzatoare. In cadrul actiunilor si al reducerilor, in loc sa scrieti manual tipul actiunii(ex: 'REMOVE_FROM_CART'), il veti importa din fisierul de constante.
 
 7. Modificati structura proiectului astfel: atat in componente, cat si in pagini, creati foldere noi, care sa contina toate fisierele corespunzatoare unei componente/pagini. De exemplu: pentru componenta Footer, se va crea un folder care va contine Footer.jsx si Footer.css.

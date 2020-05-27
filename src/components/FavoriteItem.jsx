@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductItem.css';
 import { connect } from 'react-redux';
-import {removeFromFavorite} from '../redux/actions/favorite';
+import {removeFromFavorite} from '../redux/favorite/favoriteActions';
 import { Link } from 'react-router-dom';
 
 function FavoriteItem(props) {
