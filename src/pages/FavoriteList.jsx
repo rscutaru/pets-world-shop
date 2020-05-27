@@ -6,7 +6,8 @@ function FavoriteList(props) {
     const { favorites } = props;
 
     return (
-        <div className="row my-4">
+        <div className="container-fluid container-min-max-width d-flex flex-column justify-content-center align-items-center">
+        <div className="product-item col-12 col-md-4 mb-3 d-flex flex-row align-items-center justify-content-center ">
             {
                 favorites.length
                     ? favorites.map((product) => {
@@ -19,6 +20,7 @@ function FavoriteList(props) {
                         })
                     :<p className="ml-5 text-info"> No items added in favorite list! </p>
             }
+        </div>
         </div>
     );
 }

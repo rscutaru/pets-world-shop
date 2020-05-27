@@ -6,6 +6,7 @@ import FavoriteList from '../pages/FavoriteList';
 import './Header.css';
 import { connect } from 'react-redux';
 import { logoutUser } from '../redux/actions/user';
+import { ReactComponent as Favorite} from '../assets/icons/favorite-.svg';
 
 function Header(props) {
     return (
@@ -31,9 +32,13 @@ function Header(props) {
                             ? <p className="logout h5" onClick={() => props.signOut()}>Delogare</p>
                             : <Link to="/login" className="h5 mb-0">Logare</Link>
                         }
-                        <div className="d-flex align-items-center">
-                            <Link to="/favorites" className="d-flex">
-                                <button>Favorites</button>
+                        <div className="d-flex  ml-3 mr-3">
+                            <Link to="/favorites" className="d-flex h5 mb-0">
+                                {/* <button className="ml-3 mr-3 rounded"> */}
+                                    Favorite 
+                                <Favorite className="ml-1" width="20px" heigth="20px"/>
+                                {/* </button> */}
+                                {/* <button>Favorite</button> */}
                             </Link>
                         </div>
                         <div className="d-flex align-items-center">

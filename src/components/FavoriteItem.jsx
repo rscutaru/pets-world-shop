@@ -8,6 +8,7 @@ function FavoriteItem(props) {
     const {name, price, currency, image, id} = props;
 
     return(
+        <div className="container-fluid container-min-max-width">
         <div className="product-item col-12 col-md-4 mb-3 d-flex flex-column align-items-center">
             
             {/* <button
@@ -37,6 +38,7 @@ function FavoriteItem(props) {
             >
                 Sterge din Favorite
             </button>
+        </div>
         </div>
     );
 }

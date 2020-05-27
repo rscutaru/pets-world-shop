@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { addToCart } from '../redux/actions/cart';
 import {addToFavorite} from '../redux/actions/favorite';
 import { Link } from 'react-router-dom';
+import { ReactComponent as Favorite} from '../assets/icons/favorite-.svg';
 
 function ProductItem(props) {
     const {name, price, currency, image, id} = props;
@@ -29,8 +30,7 @@ function ProductItem(props) {
             >
                 Adaugă în coș
             </button>
-            <button
-                className="btn btn-outline-secondary"
+            <button className="btn btn-outline-secondary"
                 onClick={() => props.addToFavorite({
                     product: {
                         id,
