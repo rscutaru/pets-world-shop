@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
-import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
-import FavoriteList from '../pages/FavoriteList';
+import Logo from '../../assets/images/logo.png';
+import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
 import './Header.css';
 import { connect } from 'react-redux';
-import { logoutUser } from '../redux/user/userActions';
-import { ReactComponent as Favorite} from '../assets/icons/favorite-.svg';
+import { logoutUser } from '../../redux/user/userActions';
+import { ReactComponent as Favorite} from '../../assets/icons/favorite.svg';
 
 function Header(props) {
     return (

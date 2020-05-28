@@ -1,10 +1,11 @@
 import React from 'react';
 import './ProductItem.css';
 import { connect } from 'react-redux';
-import { addToCart } from '../redux/cart/cartActions';
-import {addToFavorite} from '../redux/favorite/favoriteActions';
+import { addToCart } from '../../redux/cart/cartActions';
+import {addToFavorite} from '../../redux/favorite/favoriteActions';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Favorite} from '../assets/icons/favorite-.svg';
+import { ReactComponent as Favorite} from '../../assets/icons/favorite.svg';
+
 
 function ProductItem(props) {
     const {name, price, currency, image, id} = props;
@@ -30,6 +31,7 @@ function ProductItem(props) {
             >
                 Adaugă în coș
             </button>
+            <div>
             <button className="btn btn-outline-secondary"
                 onClick={() => props.addToFavorite({
                     product: {
@@ -40,9 +42,12 @@ function ProductItem(props) {
                         image
                     }
                 })}
+                
             >
                 Adaugă la Favorite
+                <Favorite className="ml-1" width="20px" heigth="20px"/>
             </button>
+            </div>
         </div>
     );
 }

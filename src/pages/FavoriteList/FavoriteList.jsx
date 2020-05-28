@@ -1,7 +1,7 @@
 import React from 'react';
-import FavoriteItem from '../components/FavoriteItem';
+import FavoriteItem from '../../components/Favorites/FavoriteItem';
 import { connect } from 'react-redux';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout/Layout';
 import {Link} from 'react-router-dom';
 
 function FavoriteList(props) {
