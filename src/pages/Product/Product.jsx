@@ -44,7 +44,7 @@ class Product extends React.Component {
                         <div className="product-details">
                             <p className="h3 text-danger">{product.price} {product.currency}</p>
                             <button
-                                className="btn btn-dark mb-4 font-weight-bold"
+                                className="btn btn-dark mb-4 mr-2 font-weight-bold"
                                 onClick={() => {
                                     this.props.addToCart({
                                         product: {
@@ -60,7 +60,7 @@ class Product extends React.Component {
                                 Adaugă în coș
                             </button>
                             <button
-                                className="btn btn-dark mb-4 font-weight-bold"
+                                className="btn btn-dark mb-4 ml-2 font-weight-bold"
                                 onClick={() => {
                                     this.props.addToFavorite({
                                         product: {

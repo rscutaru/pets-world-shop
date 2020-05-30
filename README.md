@@ -21,7 +21,8 @@ De asemenea, pentru tipul actiunii, creati in fiecare folder un fisier de consta
 
 7. Am modificat structura proiectului astfel: atat in componente, cat si in pagini, am creat foldere noi, care contin toate fisierele corespunzatoare unei componente/pagini. De exemplu: pentru componenta Footer, am creat un folder care contine Footer.jsx si Footer.css.
 
-3. **Modificati products.json, pastrandu-i structura, dar folosind produse/categorii proprii. De asemenea, creati-va un cont pe imgur si adaugati-va propriile imagini, actualizand si link-urile imaginilor din products.json. In final, generati-va un nou logo, corespunzator magazinului vostru.**
+3. **Am modificat products.json, pastrandu-i structura, dar folosind produse/categorii proprii. De asemenea, am creat un cont pe imgur si am adaugat propriile imagini, actualizand si link-urile imaginilor din products.json. In final, am generat un nou logo, corespunzator magazinului meu online.**
+
 ## Demo
 
 Puteti accesa proiectul prin link-ul următor:
