@@ -27,8 +27,7 @@ De asemenea, pentru tipul actiunii, creati in fiecare folder un fisier de consta
 
 Puteti accesa proiectul prin link-ul următor:
 
-https://react-sirluggia-shop.herokuapp.com/ 
-
+https://react-proiect2-petsworld.herokuapp.com/
 
 ## Functionalitati
 
@@ -41,60 +40,6 @@ https://react-sirluggia-shop.herokuapp.com/
 * Click pe "Logare" - va redirecta catre pagina de Login, unde la click pe butonul "Logare cu Google" veti fi redirectionati catre pagina corespunzatoare
 
 * Click pe cos(iconita) - va afisa produsele adaugate in cos. La click pe iconita "X" puteti elimina un produs din cos
-
-
-## Pentru a rula local proiectul
-
-1. `git clone https://github.com/razvancir96/react-sirluggia-shop.git`
-
-2. `cd react-sirluggia-shop`
-
-3. `npm install` (posibil sa dureze)
-
-4. `npm start`
-
-
-## Sub-repository-uri
-
-Pentru a vedea progresiv cum a fost realizat acest proiect urmariti urmatoarele repo-uri. Comentariile/console.log-urile din fiecare fisier sunt specifice cursurului la care au fost facute. Versiunea finala este fara comentarii sau console.log-uri.
-
-* Cursul 5: https://github.com/razvancir96/react-curs05
-
-* Cursul 6: https://github.com/razvancir96/react-curs06
-
-* Cursul 7: https://github.com/razvancir96/react-curs07
-
-* Cursul 8: https://github.com/razvancir96/react-curs08
-
-* Cursul 9: https://github.com/razvancir96/react-curs09
-
-* Cursul 10: https://github.com/razvancir96/react-curs10
-
-
-<!-- https://imgur.com/b4Esh51 -->
-<!-- https://imgur.com/dyrt4yQ -->
-<!-- https://imgur.com/R5V2Rdj -->
-https://imgur.com/0Zrqdgf
-<!-- https://imgur.com/Q3sQiT0 -->
-<!-- https://imgur.com/AdCZzjH -->
-<!-- https://imgur.com/0Y0fKGF -->
-<!-- https://imgur.com/9MD4gJO -->
-<!-- https://imgur.com/3LokCp5 -->
-<!-- https://imgur.com/WDoo7Eo -->
-
-<!-- https://imgur.com/ybKvF1b --> 
-
-<!-- https://imgur.com/L0L6jy6 -->
-<!-- https://imgur.com/wl3wMB9 -->
-https://imgur.com/CdY0Aut
-https://imgur.com/VdVTmi6
-<!-- https://imgur.com/aXPuvDY -->
-<!-- https://imgur.com/yqTRfEK -->
-<!-- https://imgur.com/5toxZnz -->
-<!-- https://imgur.com/hhcHrRL -->
-<!-- https://imgur.com/abZZ3dc -->
-https://imgur.com/COHB5qD
-
 
 
 
