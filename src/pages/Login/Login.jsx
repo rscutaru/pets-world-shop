@@ -27,18 +27,18 @@ class Login extends React.Component {
                 <p>Alege providerul cu care vrei să vrei să te loghezi:</p>
 
                 <button
-                    className="btn btn-outline-dark d-flex align-items-center"
+                    className="btn btn-outline-dark d-flex align-items-center w-25 mb-3"
                     onClick={() => this.props.signInWithGoogle()}
                 >
-                    <Google className="w-50 mr-3"/>
+                    <Google  height="20px" width="100px"/>
                     <span className="text-nowrap">Loghează-te cu Google</span>
                 </button>
 
                 <button
-                    className="btn btn-outline-dark d-flex align-items-center"
+                    className="btn btn-outline-dark d-flex align-items-center w-25"
                     onClick={() => this.props.signInWithFacebook()}
                 >
-                    <Facebook className="w-50 mr-3"/>
+                    <Facebook height="20px" width="100px"/>
                     <span className="text-nowrap">Loghează-te cu Facebook</span>
                 </button>
 
