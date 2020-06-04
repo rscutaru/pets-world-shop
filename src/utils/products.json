@@ -1,0 +1,248 @@
+{
+    "cats": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Pisicute puiuti albe si dragalase",
+                "price": 800,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/R5V2Rdj.jpg",
+                "size": "S",
+                "colour": "White",
+                "material": "Blana medie alba",
+                "brand": "Massimo Dutti",
+                "description": "Pereche de 3 pisicute cu blanita alba si pufoasa."
+            },
+            {
+                "id": 2,
+                "name": "Pisica inotatoare",
+                "price": 600,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/Q3sQiT0.jpg",
+                "size": "M",
+                "colour": "Grey",
+                "material": "Blana scurta gri",
+                "brand": "Meidenease cat",
+                "description": "Pisica cu calitati inascute de inotatoare - participa la concursuri"
+            },
+            {
+                "id": 3,
+                "name": "Pisici rebele",
+                "price": 250,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/WDoo7Eo.jpg",
+                "size": "L",
+                "colour": "Brown",
+                "material": "Blana lunga alb cu maro",
+                "brand": "Tabby cat",
+                "description": "Pisici rebele - agile, potrivite pentru alergatori sau cei ce isi doresc sa slabeasca!"
+            },
+            {
+                "id": 4,
+                "name": "Motanel gri, irezistibil",
+                "price": 900,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/L0L6jy6.jpg",
+                "size": "XS",
+                "colour": "Grey",
+                "material": "Blana scurta gri",
+                "brand": "BKH kitten",
+                "description": "Motanel gri, blanita moale si pufoasa. Irezistibil!"
+            },
+            {
+                "id": 5,
+                "name": "Regina pisicilor",
+                "price": 1000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/hhcHrRL.jpg",
+                "size": "M",
+                "colour": "Brown",
+                "material": "Blana scurta densa",
+                "brand": "birmanese cat",
+                "description": "Pisica Regina, o aparitie!"
+            }
+        ],
+        "image": "https://i.imgur.com/XdiUQhG.jpg",
+        "name": "Pisici",
+        "description": "Pisici blande si nu numai!"
+    },
+    "dogs": {
+        "items": [
+            {
+                "id": 6,
+                "name": "Pereche canina superba",
+                "price": 5000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/dyrt4yQ.jpg",
+                "size": "L",
+                "colour": "Brown",
+                "materia":"Brown weimaraner",
+                "description": "Pereche canina superba, tineri adulti responsabili si respectuosi."
+            },
+            {
+                "id": 7,
+                "name": "Caini Husky",
+                "price": 5000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/wl3wMB9.jpg",
+                "size": "L",
+                "colour": "Alb-gri",
+                "material": "Blana medie aspra",
+                "brand": "Husky",
+                "description": "Frumusete incontestabila. Prieteni de nadejde! Nu te lasa la greu!"
+            },
+            {
+                "id": 8,
+                "name": "Caini lupi sportivi",
+                "price": 3500,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/yqTRfEK.jpg",
+                "size": "L",
+                "colour": "Brown",
+                "material": "Blana scrta aspra",
+                "brand": "Belgian malinois",
+                "description": "Doi caini lupi sportivi, puternici si agili. Poti dormi linistit!"
+            },
+            {
+                "id": 9,
+                "name": "Dalmatianul Pongo",
+                "price": 6000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/abZZ3dc.jpg",
+                "size": "L",
+                "colour": "Alb-negru",
+                "material": "Piele lucioasa alba cu pete negre",
+                "brand": "Dalmatian",
+                "description": "Pongo, dalmatianul, gata oricand! Stim ca va doriti 101 dalmatieni!"
+            },
+            {
+                "id": 10,
+                "name": "Beagle",
+                "price": 6000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/wuQDkLP.jpg",
+                "size": "L",
+                "colour": "Maro",
+                "material": "Piele lucioasa maro cu alb",
+                "brand": "Beagle",
+                "description": "Beagle frumusel! Usor de purtat chiar si in poseta!"
+            }
+        ],
+        "image": "https://i.imgur.com/Y1H1qTb.jpg",
+        "name": "Caini",
+        "description": "Caini mari si mici, de teren, de poseta si nu numai!"
+    },
+    "bunnies": {
+        "items": [
+            {
+                "id": 11,
+                "name": "Iepurasul de Paste",
+                "price": 100,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/5toxZnz.jpg",
+                "size": "XS",
+                "colour": "Bleumarin închis",
+                "material": "Blana lunga deasa",
+                "brand": "Garden rabbit",
+                "description": "Iepurasul de Paste, cu blanita portocalie. Mereu gata de joaca!"
+            }
+        ],
+        "image": "https://i.imgur.com/RWSdmUi.jpg",
+        "name": "Iepurasi",
+        "description": "Iepurasi dragalasi nu doar de Paste, si nu de ciocolata!"
+    },
+    "fishes": {
+        "items": [
+            {
+                "id": 12,
+                "name": "Pestisor rosu elegant",
+                "price": 210,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/AdCZzjH.jpg",
+                "size": "XS",
+                "colour": "Red",
+                "material": "Long large tail",
+                "brand": "Siamese fish",
+                "description": "Pestisor rosu, caltifelat, elegant la superlativ. Coada minunata!"
+            },
+            {
+                "id": 13,
+                "name": "Pestisor roz finut",
+                "price": 250,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/9MD4gJO.jpg",
+                "size": "S",
+                "colour": "Pink",
+                "material": "Long large tail",
+                "brand": "Siamese fish",
+                "description": "Pestisor roz, delicat. Indeplineste 3 dorinte! "
+            },
+            {
+                "id": 14,
+                "name": "Pestisor clown",
+                "price": 100,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/aXPuvDY.jpg",
+                "size": "S",
+                "colour": "Orange white",
+                "material": "No tail",
+                "brand": "Clown fish",
+                "description": "Pestisorul clown Nemo "
+            }
+        ],
+        "image": "https://i.imgur.com/20lNExZ.jpg",
+        "name": "Pesti",
+        "description": "Ambient linistit, zen. Doar pentru cazurile cand nu vrei sa te certi!"
+    },
+    "birds": {
+        "items": [
+            {
+                "id": 15,
+                "name": "Papagal tricolor",
+                "price": 900,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/0Y0fKGF.jpg",
+                "size": "L",
+                "colour": "Multicolor",
+                "material": "Penaj lung, matur",
+                "brand": "Macaw",
+                "description": "Papagal brazilian tricolor, dar mare fan Romania. "
+            },
+            {
+                "id": 16,
+                "name": "Papagal verde",
+                "price": 500,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/3LokCp5.jpg",
+                "size": "S",
+                "colour": "Green",
+                "material": "Penaj scurt, pufos",
+                "brand": "Macaw",
+                "description": "Papagal verde, usor, de primavara."
+            }
+        ],
+        "image": "https://i.imgur.com/HPe1gaI.jpg",
+        "name": "Papagali",
+        "description": "Doar la propriu, nu si la figurat! "
+    },
+    "butterflies": {
+        "items": [
+            {
+                "id": 17,
+                "name": "Fluturasi multicolor",
+                "price": 85,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/COHB5qD.jpg",
+                "size": "XS",
+                "colour": "Portocaliu",
+                "material": "Aripi catifea",
+                "brand": "Monarch butterfly",
+                "description": "Fluturasi multicolori, cu aripioare catifelate"
+            }
+           
+        ],
+        "image": "https://i.imgur.com/fk7ISXC.jpg",
+        "name": "Fluturi",
+        "description": "Fluturi multicolori: Minunati in sere speciale, nu in stomac!"
+    }
+}

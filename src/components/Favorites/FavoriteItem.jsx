@@ -2,7 +2,6 @@ import React from 'react';
 import './FavoriteItem.css';
 import { connect } from 'react-redux';
 import {removeFromFavorite} from '../../redux/favorite/favoriteActions';
-import { Link } from 'react-router-dom';
 
 function FavoriteItem(props) {
     const {name, price, currency, image, id} = props;
